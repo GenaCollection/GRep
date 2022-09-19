@@ -10,12 +10,11 @@
 </head>
 <body>
     <h1>HTML tree Homework</h1>
-    <div class="search-container">
-        <form action="" method="get">
-          <input type="text" id = "search" placeholder="Search location" name="search">
-          <button type="submit" id = "searchBtn" >Search</button>
-        </form>
-      </div>
+        
+          <input id="searchBar" oninput = "search((this.value).toLowerCase())"  type="text"
+        name="search" placeholder="Search...">
+          <!-- <button type="submit" id = "searchBtn" >Search</button> -->
+        
 </body>
 <script src = "test.js"> </script>
 </html>
