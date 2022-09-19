@@ -14,17 +14,21 @@ ul {
     font-family: 'Courier New', Courier, monospace;
     font-size: large;
   }
-  .topnav .search-container button {
-    float: right;
-    padding: 6px 10px;
-    margin-top: 8px;
-    margin-right: 16px;
-    background: #ddd;
-    font-size: 17px;
-    border: none;
-    cursor: pointer;
+  span{
+    font-size: x-large;
   }
-  #search{
-    height: 19px;
-    width: 60px;
+  #searchBar{
+    margin-left: 5%;
+    padding:15px;
+    border-radius: 10px;
+  }
+
+  input[type=text] {
+     width: 10%;
+     -webkit-transition: width 0.15s ease-in-out;
+     transition: width 0.15s ease-in-out;
+  }
+
+  input[type=text]:focus {
+    width: 30%;
   }
